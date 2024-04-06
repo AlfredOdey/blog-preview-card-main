@@ -6,7 +6,7 @@ p {
     font-family: Arial;
 }
 
-header {
+main {
     border-radius: 15px;
     padding: 25px;
     background-color: whitesmoke;
@@ -16,18 +16,19 @@ header {
     margin-top: 100px;
 }
 
-header:hover {
+main:hover {
     box-shadow: 5px 5px;
     border: solid 1px;
 }
 
-#paragraph {
+h1 {
     background-color: hsl(47, 88%, 63%);
     border-radius: 5px;
     width: 80px;
     padding: 5px 10px 5px 10px;
     font-weight: bold;
     text-align: center;
+    font-size: 15px;
 }
 #button:focus {
     border: solid 1px;
