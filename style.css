@@ -1,0 +1,72 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+p {
+    font-family: Arial;
+}
+
+header {
+    border-radius: 15px;
+    padding: 25px;
+    background-color: whitesmoke;
+    width: 350px;
+    position: relative;
+    left: 39%;
+    margin-top: 100px;
+}
+
+header:hover {
+    box-shadow: 5px 5px;
+    border: solid 1px;
+}
+
+#paragraph {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    width: 80px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+#button:focus {
+    border: solid 1px;
+}
+
+#headerPic {
+    border-radius: 15px;
+    width: 350px;
+}
+
+main {
+    font-family: Arial;
+}
+
+#paragraph1 {
+    font-weight: 400;
+}
+
+
+#paragraph2 {
+    color: hsl(0, 0%, 50%);
+}
+#paragraph3 {
+
+    font-weight: 600;
+    position: absolute;
+    left: 95px;
+    bottom: 33px;
+}
+
+#avatar {
+    border-radius: 50px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
